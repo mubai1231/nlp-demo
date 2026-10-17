@@ -1,0 +1,7 @@
+# torch 请按服务器 CUDA 版本单独安装，见 README：
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+torch>=2.1.0
+transformers>=4.44.0
+peft>=0.12.0
+datasets>=2.20.0
+accelerate>=0.33.0

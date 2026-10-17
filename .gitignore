@@ -1,0 +1,21 @@
+# 训练产物
+output/
+*.safetensors
+*.bin
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 日志
+runs/
+wandb/
+*.log
+
+# IDE（.idea 里可能含服务器地址和账号，绝不要提交）
+.idea/
+.vscode/
+*.iml
